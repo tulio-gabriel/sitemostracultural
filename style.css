@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 10px;
+    padding: 20px;
+}
+#nav{
+    margin-left: 70px;
+    margin-top: 60px;
+}
+#info{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#cont{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+h1{
+    cursor: pointer;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: large;
+}
+li:hover{
+    background-color: rgba(255, 255, 255, 0.354);
+    border-radius: 5px;
+}
+#imgheader{
+    width: 15vw;
+    height: 20vh;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.27);
+    margin-top: 10px;
+    cursor: pointer;
+}
+header > h1
+{
+    margin-top: 40px;
+}
+.delius{
+    font-family: "Delius", cursive;
+    font-weight: 500;
+    font-style: normal;
+  }
+header > h2{
+    margin-top: 50px;
+}
+p{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+} 
+#imginfo{
+    width: 20vw;
+    height: 30vh;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    margin-top: 10px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#info2{
+    display:inline-block;
+}
+span{
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top:15px;
+    left: -175px;
+    font-weight: bold;
+}
+#instalink{
+    border-radius: 10px;
+    width: 7vw;
+    height: 10vh;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+#contatotext{
+    position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
